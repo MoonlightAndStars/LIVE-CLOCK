@@ -34,7 +34,7 @@ function currentTime() {
     } else if (hours >= 16 && hours < 21) {
       document.body.style.backgroundImage = "url('https://i.pinimg.com/originals/2c/eb/29/2ceb29a6d63d9e2042f7f9552134e2b8.gif')";
       return "Good Evening";
-    } else if (hours >= 21 && hours <= 4) {
+    } else {
       document.body.style.backgroundImage = "url('https://i.pinimg.com/originals/c1/6a/7c/c16a7cbbb467bc6d00643f9899e43bcc.gif')";
       return "Good Night";
     }
