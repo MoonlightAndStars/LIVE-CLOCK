@@ -24,16 +24,16 @@ function currentTime() {
   const greetingWish = () => {
     const hours = timeNow.getHours();
     if (hours >= 4 && hours <= 12) {
-      document.body.style.backgroundImage = "url('./SUNRISE.gif')";
+      document.body.style.backgroundImage = "url('https://pixabay.com/gifs/sunrise-sun-meadow-landscape-4575/')";
       return "Good Morning";
     } else if (hours > 12 && hours <= 16) {
-      document.body.style.backgroundImage = "url('./afternoon.gif')";
+      document.body.style.backgroundImage = "url('https://media2.giphy.com/media/uOuiK4F5zZkZ2/giphy-downsized.gif')";
       return "Good Afternoon";
     } else if (hours > 16 && hours <= 21) {
-      document.body.style.backgroundImage = "url('./sunset.gif')";
+      document.body.style.backgroundImage = "url('https://i.gifer.com/Oz8O.gif')";
       return "Good Evening";
     } else if (hours > 21 && hours < 4) {
-      document.body.style.backgroundImage = "url('./night.gif')";
+      document.body.style.backgroundImage = "url('https://i.pinimg.com/originals/c1/6a/7c/c16a7cbbb467bc6d00643f9899e43bcc.gif')";
       return "Good Night";
     }
   };
