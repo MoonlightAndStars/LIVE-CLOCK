@@ -48,6 +48,35 @@ border-radius: 1rem;
   text-align: center;
   text-shadow: 0.1rem 0.2rem 1rem rgba(220, 241, 240, 0.836);
   /* margin-top: 0.3rem; */
+  animation-name: shiningtext;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes shiningtext {
+    0% {
+          text-shadow: 0.1rem 0.2rem 1rem rgba(238, 241, 241, 0.836);
+          color: black
+    }
+    25% {
+          text-shadow: 0.1rem 0.2rem 1rem rgba(8, 15, 10, 0.836);
+          color: white
+    }
+    50% {
+          text-shadow: 0.1rem 0.2rem 1rem rgba(243, 246, 248, 0.836);
+                    color: black
+    }
+    75%{
+          text-shadow: 0.1rem 0.2rem 1rem rgba(196, 199, 113, 0.904);
+                    color: wheat
+    }
+    100% {
+          text-shadow: 0.1rem 0.2rem 1rem rgba(220, 241, 240, 0.836);
+                    color: black
+    }
+    
 }
 
 ul {
