@@ -24,16 +24,16 @@ function currentTime() {
   const greetingWish = () => {
     const hours = timeNow.getHours();
     if (hours >= 4 && hours <= 12) {
-      document.body.style.backgroundImage = "url('./ASSETS/SUNRISE.gif')";
+      document.body.style.backgroundImage = "url('.SUNRISE.gif')";
       return "Good Morning";
     } else if (hours > 12 && hours <= 16) {
-      document.body.style.backgroundImage = "url('./ASSETS/afternoon.gif')";
+      document.body.style.backgroundImage = "url('.afternoon.gif')";
       return "Good Afternoon";
     } else if (hours > 16 && hours <= 21) {
-      document.body.style.backgroundImage = "url('./ASSETS/sunset.gif')";
+      document.body.style.backgroundImage = "url('.sunset.gif')";
       return "Good Evening";
     } else if (hours > 21 && hours < 4) {
-      document.body.style.backgroundImage = "url('./ASSETS/night.gif')";
+      document.body.style.backgroundImage = "url('.night.gif')";
       return "Good Night";
     }
   };
